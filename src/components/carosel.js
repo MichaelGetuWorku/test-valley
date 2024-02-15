@@ -19,7 +19,7 @@ export default function CarouselPage() {
     }, []);
 
     return (
-        <Carousel>
+        <Carousel autoplay={true}>
             {bannerData.map((banner) => (
                 <img
                     key={banner.mainBannerId}
