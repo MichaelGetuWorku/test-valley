@@ -1,8 +1,8 @@
 import styles from './index.module.css'
-import {CarouselPage} from "@/pages/carosel";
-import ItemsList from "@/pages/Items/items";
-import HeaderNav from "@/pages/Header/header";
-import ProductsSection from "@/pages/Products/products";
+import CarouselPage from "@/components/carosel";
+import ItemsList from "@/components/Items/items";
+import HeaderNav from "@/components/Header/header";
+import ProductsSection from "@/components/Products/products";
 
 export default function Home() {
     return (
