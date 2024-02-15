@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Carousel } from "@material-tailwind/react";
 import axios from 'axios';
 
-export function CarouselPage() {
+export default function CarouselPage() {
     const [bannerData, setBannerData] = useState([]);
 
     useEffect(() => {
